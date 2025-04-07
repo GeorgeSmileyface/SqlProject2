@@ -3,7 +3,7 @@
 using System;
 using System.Data.SqlClient;
 
-string connectionString = "Server = localhost; Database = SqlTeachingDb; User Id = sa; Password = 1234; Trusted_Connection = True;";
+string connectionString = "Server = localhost; Database = SqlTeachingDb; User Id = sa; Password = 1234; Trusted_Connection = True; TrustServerCertificate=True";
 
 SqlConnection connection = new SqlConnection(connectionString);
 
